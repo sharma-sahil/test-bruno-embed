@@ -1,0 +1,74 @@
+{
+  "name": "Simple API overview",
+  "version": "1",
+  "items": [
+    {
+      "type": "http",
+      "name": "List API versions",
+      "filename": "List API versions.bru",
+      "seq": 1,
+      "settings": {},
+      "tags": [],
+      "request": {
+        "url": "{{baseUrl}}/",
+        "method": "GET",
+        "headers": [],
+        "params": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": [],
+          "file": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "docs": "",
+        "auth": {
+          "mode": "none"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "name": "Show API version details",
+      "filename": "Show API version details.bru",
+      "seq": 2,
+      "settings": {},
+      "tags": [],
+      "request": {
+        "url": "{{baseUrl}}/v2",
+        "method": "GET",
+        "headers": [],
+        "params": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": [],
+          "file": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "docs": "",
+        "auth": {
+          "mode": "none"
+        }
+      }
+    }
+  ],
+  "environments": [],
+  "brunoConfig": {
+    "version": "1",
+    "name": "Simple API overview",
+    "type": "collection",
+    "ignore": [
+      "node_modules",
+      ".git"
+    ],
+    "size": 0.00022220611572265625,
+    "filesCount": 3
+  }
+}
